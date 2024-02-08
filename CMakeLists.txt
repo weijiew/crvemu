@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.27)
-project(cemu)
+project(crvemu)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(cemu main.cpp)
+add_executable(crvemu main.cpp)
 
 enable_testing()
 add_subdirectory("third_party/googletest")
